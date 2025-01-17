@@ -1,69 +1,53 @@
-# Welcome to your Lovable project
+# For the love of coffee. Caffeine Intake Tracker. By Evanson Kahenya
 
-## Project info
+A **minimalistic, interactive web app** to help users track their daily caffeine intake by selecting coffee drinks. This app features a clean coffee-themed design, an intuitive interface, and a caffeine tracker bar that visually represents consumption levels. 
 
-**URL**: https://lovable.dev/projects/51949079-9cba-4351-896d-3255654fb4ca
+---
 
-## How can I edit this code?
+## 🚀 Features
+- **Coffee Selection**: 
+  - Choose from a variety of coffee types (e.g., Caffè Americano, Espresso, Latte, Cappuccino) via intuitive icons with coffee mug illustrations.
+  - Displays the caffeine content of each drink when selected.
+  
+- **Caffeine Tracker Bar**:
+  - A horizontal bar at the bottom of the app fills up based on the caffeine content of selected drinks.
+  - Animated transitions for visual feedback.
+  - Color-coded indicators:
+    - Green: Safe caffeine levels.
+    - Yellow: Approaching daily limit.
+    - Red: Over the recommended daily limit.
 
-There are several ways of editing your application.
+- **Interactive Notifications**:
+  - Displays total caffeine intake in milligrams.
+  - Provides gentle warnings when nearing or exceeding the daily caffeine limit (default: 400 mg).
 
-**Use Lovable**
+- **Minimalistic UI**:
+  - Centered layout with a cozy coffee theme.
+  - Clean, responsive design for desktop and mobile.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/51949079-9cba-4351-896d-3255654fb4ca) and start prompting.
+- **Additional Features**:
+  - Reset button to clear caffeine intake.
+  - Optional sound effects for interactive feedback (e.g., "sip" or "pour" sounds).
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎨 Design Philosophy
+- **Aesthetic**: Calm and inviting, with soft gradients and coffee-themed visuals.
+- **Usability**: Intuitive navigation with tooltips and hover effects.
+- **Accessibility**: Fully responsive layout optimized for both mobile and desktop devices.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
+- **Frontend**: 
+  - HTML5, CSS3 (with animations), JavaScript (or a framework like React or Vue.js).
+- **Styling**: CSS Flexbox/Grid for layout, minimalistic design inspired by modern UI principles.
+- **Icons**: Custom SVG or vector icons for coffee drink selection.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/51949079-9cba-4351-896d-3255654fb4ca) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📦 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/coffee-caffeine-tracker.git
+   cd coffee-caffeine-tracker
